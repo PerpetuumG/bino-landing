@@ -1,0 +1,25 @@
+.blog {
+    background-color: $white-gray;
+    padding: 140px 0;
+
+    p {
+        font-size: 14px;
+        line-height: 29px;
+        margin: 20px 0;
+        text-align: center;
+        color: $advantages-gray;
+    }
+
+    .blog__devider {
+        @include devider($advantages-gray);
+    }
+
+    .blog__title {
+        color: $advantages-gray;
+        font-size: 36px;
+        letter-spacing: 3.6px;
+        font-family: "Source Sans Pro";
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+}
