@@ -190,7 +190,7 @@
 @media (max-width: 580px) {
     .blog {
         .blog__element {
-            &:nth-child(odd), &nth-child(even) {
+            &:nth-child(odd), &:nth-child(even) {
                 .blog__img {
                     order: 1;
                     flex-basis: 100%;
