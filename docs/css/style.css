@@ -112,7 +112,7 @@ p {
             transform: translate(-50%, -50%) rotate(0deg); } }
 
 .section-top {
-  background: url("/img/section-top-bg.jpg") top center no-repeat;
+  background: url("../img/section-top-bg.jpg") top center no-repeat;
   background-size: cover;
   position: relative;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 90%, 0% 80%);
@@ -537,7 +537,7 @@ p {
     width: 46%;
     height: 100%;
     display: block;
-    background: url("/img/services-bg.jpg") right top no-repeat;
+    background: url("../img/services-bg.jpg") right top no-repeat;
     background-size: cover;
     position: absolute;
     right: 0;
@@ -939,7 +939,7 @@ p {
     margin-top: 30px; } }
 
 .counts {
-  background: url("/img/counts-bg.jpg") center no-repeat;
+  background: url("../img/counts-bg.jpg") center no-repeat;
   background-size: cover;
   padding: 120px 0 110px;
   position: relative; }
@@ -1204,7 +1204,7 @@ p {
 .team {
   margin-top: 140px;
   padding: 140px 0 470px;
-  background: url("/img/team-line.png") center bottom no-repeat, url("/img/team-bg.jpg") center no-repeat; }
+  background: url("../img/team-line.png") center bottom no-repeat, url("../img/team-bg.jpg") center no-repeat; }
   .team .team__wrap {
     position: relative; }
   .team p {
@@ -1352,7 +1352,7 @@ p {
 
 @media (max-width: 1080px) {
   .team {
-    background: url("/img/team-bg.jpg") center no-repeat;
+    background: url("../img/team-bg.jpg") center no-repeat;
     background-size: cover;
     padding: 140px 0; }
     .team .team__elements {
@@ -1885,7 +1885,7 @@ p {
     padding: 30px; } }
 
 .free {
-  background: url(/img/free-bg.jpg) center no-repeat;
+  background: url("../img/free-bg.jpg") center no-repeat;
   background-size: cover;
   padding: 140px 0;
   text-align: center;
